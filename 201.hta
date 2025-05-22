@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>eg</title>
+    <HTA:APPLICATION 
+        ID="oHTA"
+        APPLICATIONNAME="cl"
+        WINDOWSTATE="minimized"
+        CAPTION="yes"
+        SHOWINTASKBAR="yes"
+        SINGLEINSTANCE="yes">
+</head>
+<body>
+    <script language="VBScript">
+        Set WShell = CreateObject("WScript.Shell")
+        WShell.Run "calc.exe"
+        window.close()
+    </script>
+</body>
+</html>
